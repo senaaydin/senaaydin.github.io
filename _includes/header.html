@@ -6,15 +6,43 @@
       </h1>
       <div class="header-icons">
         <a aria-label="Send email" href="mailto:senanur.aydin@gmail.com"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Twitter" target="_blank" href="http://www.twitter.com/ensalzar"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-         <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/ensalzar"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/senanuraydin/" class="icon fa fa-linkedin" target="_blank"></a>
+        <a aria-label="My Linkedin" target="_blank" href="https://www.linkedin.com/in/senanuraydin/"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
         <a aria-label="My Github" target="_blank" href="http://www.github.com/senaaydin"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        <a aria-label="My Twitter" target="_blank" href="http://www.twitter.com/ensalzar"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/ensalzar"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
     </div>
+    <h2>Contact Me!</h2>
       <div class="header-links">
         <a class="link" href="#about" data-scroll>About Me</a>
         <a class="link" href="#projects" data-scroll>Projects</a>
       </div>
+    <form action="https://formspree.io/senanur.aydin@gmail.com" method="post" name="sentMessage" id="contactForm" novalidate="" class="has-validation-callback disabled-with-errors">
+    <input type="text" name="_gotcha" style="display:none">
+
+    <div class="field">
+      <input name="name" id="name" data-validation="required" placeholder="Name" data-validation-event="keyup change">
+      </div>
+    <div class="field">
+      <input type="email" name="email" id="email" data-validation="required email" placeholder="Email" data-validation-optional="true" data-validation-event="keyup change">
+    </div>
+    <div class="field">
+      <textarea name="message" id="message" data-validation="required" placeholder="Message" rows="4" data-validation-event="keyup change"></textarea>
+    </div>
+    <div class="text-success" id="success" style="display:none;">
+      
+        Thank you for contacting me.
+      
+    </div>
+    <div class="text-danger" id="error" style="display:none;">
+      
+        Message could not be send. Please contact me at
+      
+    </div>
+    <ul class="actions">
+      <li><button type="submit" class="disabled" disabled="disabled">Send it</button></li>
+    </ul>
+    
+  </form>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
