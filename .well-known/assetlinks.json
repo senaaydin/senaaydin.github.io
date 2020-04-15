@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.valensas.tosla.dev.debug",
-    "sha256_cert_fingerprints":
-    ["C5:32:E2:11:FC:8B:0C:FE:AD:A3:AA:6D:7B:76:CB:C7:D5:69:24:56:43:4F:B2:4A:63:F0:DB:C8:AD:59:27:47"]
-  }
-}]
